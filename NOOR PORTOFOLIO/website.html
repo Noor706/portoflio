@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <link rel="stylesheet" href="noorstyle.css">
+    <script src="https://kit.fontawesome.com/3625437533.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header">
+    <div class="container">
+        <nav>
+            <img src="images/LOGO.png" class="LOGO">
+            <ul id="sidemenu">
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+                <i class="fas fa-times" onclick="closemenu()"></i>
+            </ul>
+            <i class="fas fa-bars" onclick="openmenu()"></i>
+        </nav>
+        <div class="header-text">
+            <p> Full-stack Web Developer</p>
+            <h1>Hi, I'm <span style="color: #ff004f;">NOOR MOHAMMED </span><br>From Banglore</h1>
+        </div>
+    </div>
+</div>
+<!-- -------------about------------ -->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/USER1.png" style="border:2px solid #ff004f;">
+            </div>
+            <div class="about-col-2">
+                <h1 class="subtitle">About Me</h1>
+            <p>I'm a full-stack web developer based in Banglore, who's passionate about creating beautiful and functional web applications. When I'm not coding, you'll find me hiking, rock climbing, riding, swimming or exploring the city for new resturants with good ambience.</p>
+            <div class="tab-titles">
+                <p class="tablinks activelink" onclick="opentab('skills')" >Skills</p>
+                <p class="tablinks" onclick="opentab('experience')">Experience</p>
+                <p class="tablinks" onclick="opentab('education')">Education</p>
+            </div>
+            <div class="tabcontents activetab" id="skills">
+                <ul>
+                    <li><span>Front-End </span><br>Html, Css, Javascript, Bootstrap, Angular</li>
+                    <li><span>Back-End </span><br>java, springboot</li>
+                    <li><span>Database Management</span><br>MySQL, MongoDB</li>
+                </ul>
+            </div>
+            <div class="tabcontents" id="experience">
+                <ul>
+                    <li><span>UI/UX</span><br>Designing web interfaces</li>
+                    <li><span>Web Development</span><br>Smooth with Back-End</li>
+                    <li><span>Development</span><br>Working with APIs</li>
+                </ul>
+            </div>
+            <div class="tabcontents" id="education">
+                <ul>
+                    <li><span>new little flower matric hr sec School</span><br>10th State syllabus</li>
+                    <li><span>new little flower matric hr sec SchooL</span><br>12th PCCM</li>
+                    <li><span>ER.PERUMAL MANMEKALAI COLLEGE OF ENGINEERING</span><br>Information Technology</li>
+                    <li><span>ITvedant</span><br>PG in Full-stack Development</li>
+                </ul>
+            </div>
+        </div>
+      </div>
+    </div>
+</div>
+<!-- ----------services--------------- -->
+<div id="services">
+    <div class="container">
+        <h1 class="subtitle">My Skills</h1>
+        <div class="serviceslist">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Front-End</h2>
+                    <p><br>HTML<br><br>CSS<br><br>Javascript<br><br>Bootstrap<br><br>Angular<br><br></p>
+                    
+                </div>
+                <div>
+                    <i class="fa-solid fa-crop-simple"></i>
+                    <h2>Back-End</h2>
+                    <p><br>java<br><br>Javascript<br><br>MySQL<br><br>springboot<br><br>Apache<br><br>APIs</p>
+                    
+                </div>
+                <div>
+                    <i class="fa-sharp fa-solid fa-cloud-bolt"></i>
+                    <h2>Additional Skills</h2>
+                    <p><br>Microsoft Excel<br><br>Problem-solving skills<br><br>DevOps Foundation<br><br>Adobe photoshop<br><br>Artificial Intellegence</p>
+            
+                </div>
+        </div>
+        
+    </div>
+</div>
+<!-- ---------portfolio--------- -->
+<div id="portfolio">
+    <div class="container">
+        <h1 class="subtitle">My Work</h1>
+        <div class="worklist">
+            <div class="work">
+                <img src="images/work-1.png">
+                <div class="layer">
+                    <h3>Certification</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolorum qui distinctio consequuntur</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-2.png">
+                <div class="layer">
+                    <h3>User Interface</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolorum qui distinctio consequuntur</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/work-3.png">
+                <div class="layer">
+                    <h3>Web Design</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus dolorum qui distinctio consequuntur</p>
+                    <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#" class="btn">See more.</a>
+    </div>
+</div>
+<!-----contact-------->
+<div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contactleft">
+                <h1 class="subtitle">Contact Me</h1>
+                <br><br><br>
+               <p><i class="fa-solid fa-paper-plane"></i>noormohammed46731@gmail.com</p>
+               <br><br>
+               <p><i class="fa-solid fa-square-phone"></i> +91 6380314779</p>
+               <br>
+                <div class="socialicons">
+                    <a href="#"><i class="fa-brands fa-square-facebook"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-instagram"></i></a>
+                    <a href="#"><i class="fa-brands fa-square-twitter"></i></a>
+                    <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/Noor's Resume-hackerresume.pdf" download class="btn btn2">Download CV</a>
+            </div>
+            <div class="contactright">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="Email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg">🥰THANKS FOR UR TIME🤗</span>
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright © noormohammed. Made with <i class="fa-solid fa-heart"></i> by noor k</p>
+    </div>
+</div>
+<script>
+    var tablinks = document.getElementsByClassName("tablinks");
+    var tabcontents = document.getElementsByClassName("tabcontents");
+    function opentab(tabname){
+        for(tablink of tablinks){
+            tablink.classList.remove("activelink")
+        }
+        for(tabcontent of tabcontents){
+            tabcontent.classList.remove("activetab")
+        }
+        event.currentTarget.classList.add("activelink");
+        document.getElementById(tabname).classList.add("activetab")
+    }
+</script>
+<script>
+    var sidemenu = document.getElementById("sidemenu");
+    function openmenu(){
+        sidemenu.style.right ="0";
+    }
+    function closemenu(){
+        sidemenu.style.right ="-200px";
+    }
+</script>
+
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbxYUCg1MbjmJlYcXBZg__yKZzsxd_MA7V9TeQ9xZPs31pQI8ZYK9vqyiFaABvVoWHCJ/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg =document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },3000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+    
+</body>
+</html>
